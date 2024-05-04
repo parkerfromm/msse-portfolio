@@ -26,7 +26,7 @@ export const items: Array<Project> = [
 			'In this project, we combined data analysis and machine learning techniques to model air quality across various US counties. Using Python libraries NumPy, Pandas, seaborn, matplotlib, and scikit-learn, our team constructed two linear regression models and successfully conducted a comprehensive analysis of emission data.',
 		shortDescription:
 			'Exploring the Link Between Gas Emissions and Air Quality in the United States.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/EnviroTechSean/TeamPunchParty/tree/main', label: 'GitHub' }],
 		logo: Assets.Svelte,
 		name: 'Exploring the Link Between Gas Emissions and Air Quality',
 		period: {
