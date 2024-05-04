@@ -54,13 +54,13 @@ export const items = [
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'css',
+		slug: 'jupyter',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.CSS,
-		name: 'CSS',
-		category: 'markup-style'
+			' Regularly utilized JupyterLab for exploring and analyzing real-world data sets. This included using tools such as Pandas for data manipulation, Regex for data cleaning, and SQL for data querying, which facilitated in-depth data delving and insight generation.Developed and fine-tuned predictive models directly within JupyterLab.Created a model that uses features like greenhouse gas emissions, population density, and proximity to coastlines to predict local air quality levels.  Implemented logistic regression models to classify emails as spam or not, and linear regression models to predict housing prices, demonstrating the versatility of regression techniques in solving diverse problems. Used JupyterLab extensively in my capstone project to run exploratory experiments using custom machine learning classes. This project was instrumental in refining model parameters and enhancing model accuracy through iterative testing and evaluation. For a final project, developed a machine learning model capable of predicting molecular energies. This project showcased the application of advanced machine learning techniques to solve complex chemical prediction problems.',
+		logo: Assets.JupyterLab,
+		name: 'JupyterLab',
+		category: 'pro-lang'
 	}),
 	defineSkill({
 		slug: 'html',
