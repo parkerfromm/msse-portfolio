@@ -36,21 +36,21 @@ const defineSkill = <S extends string>(
 
 export const items = [
 	defineSkill({
-		slug: 'js',
+		slug: 'cpp',
 		color: 'yellow',
 		description:
 			'Constructed multiple comprehensive repositories from scratch, organizing source files, include files, and executables into well-defined subdirectories to enhance code maintainability and collaboration. Designed and implemented fundamental data structures including stack, queue, priority queue, hash map, linked list, and binary Search tree. Structures were tested to evaluate performance. In a separate advanced programming course, extensively utilized the C++ Standard Library to enhance project complexity and efficiency. Gained proficientcy in high-level object-oriented programming, focusing on class infrastructure, inheritance, and automated configurations to streamline software development processes. Applied knowledge to develope sophisticated quantum chemistry code for CNDO/2 and atomic orbitals analysis, featuring Hartree-Fock methods and potential energy surface mapping.  Implemented custom linear algebra functions and developed matrix vector classes to facilitate complex mathematical operations and simulations. Gained substantial experience in parallelization techniques using OpenMP, MPI, GCC, and CUDA, significantly optimizing code performance across various computing platforms.',
-		logo: Assets.JavaScript,
+		logo: Assets.Cpp,
 		name: 'C++',
 		category: 'pro-lang'
 	}),
 	defineSkill({
-		slug: 'ts',
+		slug: 'python',
 		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
-		logo: Assets.TypeScript,
-		name: 'Typescript',
+			"Experienced with Python, demonstrating proficiency in object- oriented programming, which includes expertise in inheritance, encapsulation, and polymorphism.Designed and implemented custom classes to enhance functionality in various projects.Notably, for my capstone project, I developed a specialized class framework to streamline the creation and management of machine learning model.Proficient in using Pandas for complex data analysis tasks; skilled in constructing and manipulating dataframes for large datasets.My work typically involves cleaning, transforming, and aggregating data, which is crucial for high - stakes data - driven decision - making.Utilized PyTorch to develop and implement state - of - the - art machine learning models.My focus has been on both supervised and unsupervised learning models, applying these to real - world datasets.Experienced in leveraging libraries such as Matplotlib and Seaborn for insightful data visualization.I have created a range of plots and charts, from basic line graphs to complex heatmaps, to effectively communicate results and findings.This includes developing visualizations to identify patterns, trends, and correlations, as well as using statistical plots to determine the best fit models for predictive analytics.Applied various optimization techniques to improve the efficiency and performance of Python scripts, reducing computation time and resource consumption.",
+		logo: Assets.Python,
+		name: 'Python',
 		category: 'pro-lang'
 	}),
 	defineSkill({
