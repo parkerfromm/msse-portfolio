@@ -39,9 +39,9 @@ export const items = [
 		slug: 'js',
 		color: 'yellow',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
+			'Constructed multiple comprehensive repositories from scratch, organizing source files, include files, and executables into well-defined subdirectories to enhance code maintainability and collaboration. Designed and implemented fundamental data structures including stack, queue, priority queue, hash map, linked list, and binary Search tree. Structures were tested to evaluate performance. In a separate advanced programming course, extensively utilized the C++ Standard Library to enhance project complexity and efficiency. Gained proficientcy in high-level object-oriented programming, focusing on class infrastructure, inheritance, and automated configurations to streamline software development processes. Applied knowledge to develope sophisticated quantum chemistry code for CNDO/2 and atomic orbitals analysis, featuring Hartree-Fock methods and potential energy surface mapping.  Implemented custom linear algebra functions and developed matrix vector classes to facilitate complex mathematical operations and simulations. Gained substantial experience in parallelization techniques using OpenMP, MPI, GCC, and CUDA, significantly optimizing code performance across various computing platforms.',
 		logo: Assets.JavaScript,
-		name: 'Javascript',
+		name: 'C++',
 		category: 'pro-lang'
 	}),
 	defineSkill({
