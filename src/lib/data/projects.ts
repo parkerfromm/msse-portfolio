@@ -4,20 +4,20 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'slick-portfolio-svelte',
+		color: '#ff3e00',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'In this project, we combined data analysis and machine learning techniques to model air quality across various US counties. Using Python libraries NumPy, Pandas, seaborn, matplotlib, and scikit-learn, our team constructed two linear regression models and successfully conducted a comprehensive analysis of emission data.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+			'An accelerated neural network engine for predicting molecular energies.',
+		links: [{ to: 'https://github.com/parkerfromm/ani-final/tree/main/ani_proj', label: 'GitHub' }],
+		logo: Assets.Svelte,
+		name: 'ANI Molecular Energy Predictor',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('python', 'jupyter'),
+		type: 'Nerual Network',
 	},
 	{
 		slug: 'slick-portfolio-svelte',
@@ -28,12 +28,28 @@ export const items: Array<Project> = [
 			'Exploring the Link Between Gas Emissions and Air Quality in the United States.',
 		links: [{ to: 'https://github.com/EnviroTechSean/TeamPunchParty/tree/main', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Exploring the Link Between Gas Emissions and Air Quality',
+		name: 'Predictive Air Quality Exploratory Data Analysis',
 		period: {
 			from: new Date()
 		},
 		skills: getSkills('python', 'jupyter'),
-		type: 'Website Template',
+		type: 'Linear Regression Model and EDA',
+	},
+	{
+		slug: 'slick-portfolio-svelte',
+		color: '#ff3e00',
+		description:
+			'In this project, we combined data analysis and machine learning techniques to model air quality across various US counties. Using Python libraries NumPy, Pandas, seaborn, matplotlib, and scikit-learn, our team constructed two linear regression models and successfully conducted a comprehensive analysis of emission data.',
+		shortDescription:
+			'Exploring the Link Between Gas Emissions and Air Quality in the United States.',
+		links: [{ to: 'https://github.com/EnviroTechSean/TeamPunchParty/tree/main', label: 'GitHub' }],
+		logo: Assets.Svelte,
+		name: 'Predictive Air Quality Exploratory Data Analysis',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('python', 'jupyter'),
+		type: 'Linear Regression Model and EDA',
 		screenshots: [
 			{
 				label: 'screen 1',
