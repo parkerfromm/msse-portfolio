@@ -12,7 +12,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Neural Network model for predicting tau protein pregression in mice subject with genetic expression data.',
 		links: [{ to: 'https://github.com/Raj-Lab-UCSF/NexIS_SBI/tree/main', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Unknown,
 		name: 'Optimizing the NexIS - SBI mouse tauopathy model',
 		period: {
 			from: new Date()
@@ -28,7 +28,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'API for creating cellar automata models, with example usage.',
 		links: [{ to: 'https://github.com/fractalclockwork/cellular_automata', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Unknown,
 		name: 'Cellular Automata',
 		period: {
 			from: new Date()
@@ -44,7 +44,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'An accelerated neural network engine for predicting molecular energies.',
 		links: [{ to: 'https://github.com/parkerfromm/ani-final/tree/main/ani_proj', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Unknown,
 		name: 'ANI Molecular Energy Predictor',
 		period: {
 			from: new Date()
@@ -60,7 +60,7 @@ export const items: Array<Project> = [
 		shortDescription:
 			'Exploring the Link Between Gas Emissions and Air Quality in the United States.',
 		links: [{ to: 'https://github.com/EnviroTechSean/TeamPunchParty/tree/main', label: 'GitHub' }],
-		logo: Assets.Svelte,
+		logo: Assets.Unknown,
 		name: 'Predictive Air Quality Exploratory Data Analysis',
 		period: {
 			from: new Date()
